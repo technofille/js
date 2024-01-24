@@ -37,11 +37,14 @@ let negValue = -value
 let str1 = "test"
 let str2 = " now !"
 let str3 = str1 + str2
-console.log(str3);
+// console.log(str3);
+// //toPrimitive in ecma
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+//console.log(+true);
 
-
-//toPrimitive in ecma
-console.log("1"+2);
-console.log(1+"2");
-console.log("1"+2+2);
-console.log(1+2+"2");
+ let gameCounter = 100;
+ ++gameCounter;
+ console.log(gameCounter);
